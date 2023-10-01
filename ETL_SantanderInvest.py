@@ -21,7 +21,7 @@ clientes = [cliente for id in clientes_id if (cliente := getCliente(id)) is not 
 
 #print(json.dumps(clientes , indent=2, ensure_ascii=False))
 
-openIA_apk_key = '------'
+openIA_apk_key = '---------'
 
 openai.api_key = openIA_apk_key
 
